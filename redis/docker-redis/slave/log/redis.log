@@ -1,0 +1,111 @@
+1:C 06 Jul 10:52:49.582 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 06 Jul 10:52:49.582 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 06 Jul 10:52:49.582 # Configuration loaded
+1:M 06 Jul 10:52:49.583 * Running mode=standalone, port=6379.
+1:M 06 Jul 10:52:49.583 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 06 Jul 10:52:49.583 # Server initialized
+1:M 06 Jul 10:52:49.583 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 06 Jul 10:52:49.583 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 06 Jul 10:52:49.583 * Ready to accept connections
+1:S 06 Jul 11:01:33.899 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+1:S 06 Jul 11:01:33.899 * SLAVE OF 47.105.193.17:6380 enabled (user request from 'id=4 addr=127.0.0.1:51576 fd=7 name= age=68 idle=0 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=32768 obl=0 oll=0 omem=0 events=r cmd=slaveof')
+1:S 06 Jul 11:01:34.847 * Connecting to MASTER 47.105.193.17:6380
+1:S 06 Jul 11:01:34.847 * MASTER <-> SLAVE sync started
+1:S 06 Jul 11:01:34.847 * Non blocking connect for SYNC fired the event.
+1:S 06 Jul 11:01:34.848 * Master replied to PING, replication can continue...
+1:S 06 Jul 11:01:34.849 * Trying a partial resynchronization (request ab906a52fc89a1268047ea73e82c1149bb8ccada:1).
+1:S 06 Jul 11:01:34.850 * Full resync from master: d13c90545e1c13e77b3939d6922aaf60b1cf3d2e:0
+1:S 06 Jul 11:01:34.850 * Discarding previously cached master state.
+1:S 06 Jul 11:01:34.948 * MASTER <-> SLAVE sync: receiving 176 bytes from master
+1:S 06 Jul 11:01:34.948 * MASTER <-> SLAVE sync: Flushing old data
+1:S 06 Jul 11:01:34.948 * MASTER <-> SLAVE sync: Loading DB in memory
+1:S 06 Jul 11:01:34.948 * MASTER <-> SLAVE sync: Finished with success
+1:S 06 Jul 11:02:31.374 # Connection with master lost.
+1:S 06 Jul 11:02:31.374 * Caching the disconnected master state.
+1:S 06 Jul 11:02:31.979 * Connecting to MASTER 47.105.193.17:6380
+1:S 06 Jul 11:02:31.979 * MASTER <-> SLAVE sync started
+1:S 06 Jul 11:02:31.980 * Non blocking connect for SYNC fired the event.
+1:S 06 Jul 11:02:31.980 * Master replied to PING, replication can continue...
+1:S 06 Jul 11:02:31.981 * Trying a partial resynchronization (request d13c90545e1c13e77b3939d6922aaf60b1cf3d2e:85).
+1:S 06 Jul 11:02:31.982 * Full resync from master: 5d94d4eca22a843f68a2e77ea4c36b4538c54a1c:0
+1:S 06 Jul 11:02:31.982 * Discarding previously cached master state.
+1:S 06 Jul 11:02:32.048 * MASTER <-> SLAVE sync: receiving 176 bytes from master
+1:S 06 Jul 11:02:32.048 * MASTER <-> SLAVE sync: Flushing old data
+1:S 06 Jul 11:02:32.048 * MASTER <-> SLAVE sync: Loading DB in memory
+1:S 06 Jul 11:02:32.048 * MASTER <-> SLAVE sync: Finished with success
+1:signal-handler (1594033364) Received SIGTERM scheduling shutdown...
+1:S 06 Jul 11:02:44.906 # User requested shutdown...
+1:S 06 Jul 11:02:44.906 * Saving the final RDB snapshot before exiting.
+1:S 06 Jul 11:02:44.909 * DB saved on disk
+1:S 06 Jul 11:02:44.909 * Removing the pid file.
+1:S 06 Jul 11:02:44.909 # Redis is now ready to exit, bye bye...
+1:C 06 Jul 11:02:45.366 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 06 Jul 11:02:45.367 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 06 Jul 11:02:45.367 # Configuration loaded
+1:M 06 Jul 11:02:45.368 * Running mode=standalone, port=6379.
+1:M 06 Jul 11:02:45.368 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 06 Jul 11:02:45.368 # Server initialized
+1:M 06 Jul 11:02:45.368 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 06 Jul 11:02:45.368 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 06 Jul 11:02:45.368 * DB loaded from disk: 0.000 seconds
+1:M 06 Jul 11:02:45.368 * Ready to accept connections
+1:S 06 Jul 11:03:48.414 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+1:S 06 Jul 11:03:48.414 * SLAVE OF 47.105.193.17:6380 enabled (user request from 'id=3 addr=127.0.0.1:51578 fd=7 name= age=5 idle=0 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=32768 obl=0 oll=0 omem=0 events=r cmd=slaveof')
+1:S 06 Jul 11:03:48.504 * Connecting to MASTER 47.105.193.17:6380
+1:S 06 Jul 11:03:48.504 * MASTER <-> SLAVE sync started
+1:S 06 Jul 11:03:48.505 * Non blocking connect for SYNC fired the event.
+1:S 06 Jul 11:03:48.505 * Master replied to PING, replication can continue...
+1:S 06 Jul 11:03:48.506 * Trying a partial resynchronization (request 7d93df7caa26bd8ff9184cdb69f0d67e53c9e1e3:1).
+1:S 06 Jul 11:03:48.507 * Full resync from master: 5d94d4eca22a843f68a2e77ea4c36b4538c54a1c:14
+1:S 06 Jul 11:03:48.507 * Discarding previously cached master state.
+1:S 06 Jul 11:03:48.527 * MASTER <-> SLAVE sync: receiving 176 bytes from master
+1:S 06 Jul 11:03:48.527 * MASTER <-> SLAVE sync: Flushing old data
+1:S 06 Jul 11:03:48.527 * MASTER <-> SLAVE sync: Loading DB in memory
+1:S 06 Jul 11:03:48.527 * MASTER <-> SLAVE sync: Finished with success
+1:S 06 Jul 11:17:46.005 * 1 changes in 900 seconds. Saving...
+1:S 06 Jul 11:17:46.005 * Background saving started by pid 15
+15:C 06 Jul 11:17:46.008 * DB saved on disk
+15:C 06 Jul 11:17:46.008 * RDB: 0 MB of memory used by copy-on-write
+1:S 06 Jul 11:17:46.105 * Background saving terminated with success
+1:S 06 Jul 17:21:34.982 * DB saved on disk
+1:S 06 Jul 17:21:44.426 * DB saved on disk
+1:S 06 Jul 17:21:53.775 * DB saved on disk
+1:S 06 Jul 17:22:03.087 * DB saved on disk
+1:S 06 Jul 17:22:12.764 * DB saved on disk
+1:S 06 Jul 17:22:22.171 * DB saved on disk
+1:S 06 Jul 17:22:31.556 * DB saved on disk
+1:S 06 Jul 17:22:40.914 * DB saved on disk
+1:S 06 Jul 17:22:50.219 * DB saved on disk
+1:S 06 Jul 17:22:59.684 * DB saved on disk
+1:S 06 Jul 17:23:09.058 * DB saved on disk
+1:S 06 Jul 17:28:10.008 * 10 changes in 300 seconds. Saving...
+1:S 06 Jul 17:28:10.008 * Background saving started by pid 16
+16:C 06 Jul 17:28:10.011 * DB saved on disk
+16:C 06 Jul 17:28:10.011 * RDB: 0 MB of memory used by copy-on-write
+1:S 06 Jul 17:28:10.108 * Background saving terminated with success
+1:S 06 Jul 17:54:41.684 * DB saved on disk
+1:S 06 Jul 17:54:51.111 * DB saved on disk
+1:S 06 Jul 17:55:00.517 * DB saved on disk
+1:S 06 Jul 17:55:09.927 * DB saved on disk
+1:S 06 Jul 17:55:19.332 * DB saved on disk
+1:S 06 Jul 17:55:28.737 * DB saved on disk
+1:S 06 Jul 17:55:38.143 * DB saved on disk
+1:S 06 Jul 17:55:47.549 * DB saved on disk
+1:S 06 Jul 17:55:56.956 * DB saved on disk
+1:S 06 Jul 17:56:06.361 * DB saved on disk
+1:S 06 Jul 17:56:15.766 * DB saved on disk
+1:S 06 Jul 18:01:16.087 * 10 changes in 300 seconds. Saving...
+1:S 06 Jul 18:01:16.087 * Background saving started by pid 17
+17:C 06 Jul 18:01:16.091 * DB saved on disk
+17:C 06 Jul 18:01:16.092 * RDB: 0 MB of memory used by copy-on-write
+1:S 06 Jul 18:01:16.187 * Background saving terminated with success
+1:S 07 Jul 01:34:37.372 * 1 changes in 900 seconds. Saving...
+1:S 07 Jul 01:34:37.372 * Background saving started by pid 23
+23:C 07 Jul 01:34:37.374 * DB saved on disk
+23:C 07 Jul 01:34:37.374 * RDB: 0 MB of memory used by copy-on-write
+1:S 07 Jul 01:34:37.472 * Background saving terminated with success
+1:S 07 Jul 01:49:38.076 * 1 changes in 900 seconds. Saving...
+1:S 07 Jul 01:49:38.077 * Background saving started by pid 24
+24:C 07 Jul 01:49:38.079 * DB saved on disk
+24:C 07 Jul 01:49:38.080 * RDB: 0 MB of memory used by copy-on-write
+1:S 07 Jul 01:49:38.177 * Background saving terminated with success

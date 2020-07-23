@@ -1,0 +1,153 @@
+1:C 06 Jul 10:49:07.465 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 06 Jul 10:49:07.465 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 06 Jul 10:49:07.465 # Configuration loaded
+1:M 06 Jul 10:49:07.474 * Running mode=standalone, port=6379.
+1:M 06 Jul 10:49:07.474 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 06 Jul 10:49:07.474 # Server initialized
+1:M 06 Jul 10:49:07.474 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 06 Jul 10:49:07.474 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 06 Jul 10:49:07.474 * Ready to accept connections
+1:M 06 Jul 11:01:34.849 * Slave 47.105.193.17:6379 asks for synchronization
+1:M 06 Jul 11:01:34.849 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for 'ab906a52fc89a1268047ea73e82c1149bb8ccada', my replication IDs are '9b35d318c4d56a92f051f6cd8aa12c1b57c11fe3' and '0000000000000000000000000000000000000000')
+1:M 06 Jul 11:01:34.849 * Starting BGSAVE for SYNC with target: disk
+1:M 06 Jul 11:01:34.849 * Background saving started by pid 17
+17:C 06 Jul 11:01:34.852 * DB saved on disk
+17:C 06 Jul 11:01:34.853 * RDB: 0 MB of memory used by copy-on-write
+1:M 06 Jul 11:01:34.947 * Background saving terminated with success
+1:M 06 Jul 11:01:34.948 * Synchronization with slave 47.105.193.17:6379 succeeded
+1:signal-handler (1594033351) Received SIGTERM scheduling shutdown...
+1:M 06 Jul 11:02:31.370 # User requested shutdown...
+1:M 06 Jul 11:02:31.371 * Saving the final RDB snapshot before exiting.
+1:M 06 Jul 11:02:31.373 * DB saved on disk
+1:M 06 Jul 11:02:31.373 * Removing the pid file.
+1:M 06 Jul 11:02:31.374 # Redis is now ready to exit, bye bye...
+1:C 06 Jul 11:02:31.846 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 06 Jul 11:02:31.846 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 06 Jul 11:02:31.846 # Configuration loaded
+1:M 06 Jul 11:02:31.847 * Running mode=standalone, port=6379.
+1:M 06 Jul 11:02:31.848 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 06 Jul 11:02:31.848 # Server initialized
+1:M 06 Jul 11:02:31.848 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 06 Jul 11:02:31.848 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 06 Jul 11:02:31.848 * DB loaded from disk: 0.000 seconds
+1:M 06 Jul 11:02:31.848 * Ready to accept connections
+1:M 06 Jul 11:02:31.981 * Slave 47.105.193.17:6379 asks for synchronization
+1:M 06 Jul 11:02:31.981 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for 'd13c90545e1c13e77b3939d6922aaf60b1cf3d2e', my replication IDs are 'ec648fc7bad7f8089cb7b039d5b62f32c91bb417' and '0000000000000000000000000000000000000000')
+1:M 06 Jul 11:02:31.981 * Starting BGSAVE for SYNC with target: disk
+1:M 06 Jul 11:02:31.981 * Background saving started by pid 8
+8:C 06 Jul 11:02:31.985 * DB saved on disk
+8:C 06 Jul 11:02:31.985 * RDB: 0 MB of memory used by copy-on-write
+1:M 06 Jul 11:02:32.048 * Background saving terminated with success
+1:M 06 Jul 11:02:32.048 * Synchronization with slave 47.105.193.17:6379 succeeded
+1:M 06 Jul 11:02:44.910 # Connection with slave 47.105.193.17:6379 lost.
+1:M 06 Jul 11:03:48.506 * Slave 47.105.193.17:6379 asks for synchronization
+1:M 06 Jul 11:03:48.506 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for '7d93df7caa26bd8ff9184cdb69f0d67e53c9e1e3', my replication IDs are '5d94d4eca22a843f68a2e77ea4c36b4538c54a1c' and '0000000000000000000000000000000000000000')
+1:M 06 Jul 11:03:48.506 * Starting BGSAVE for SYNC with target: disk
+1:M 06 Jul 11:03:48.506 * Background saving started by pid 13
+13:C 06 Jul 11:03:48.512 * DB saved on disk
+13:C 06 Jul 11:03:48.512 * RDB: 0 MB of memory used by copy-on-write
+1:M 06 Jul 11:03:48.527 * Background saving terminated with success
+1:M 06 Jul 11:03:48.527 * Synchronization with slave 47.105.193.17:6379 succeeded
+1:M 06 Jul 11:18:49.091 * 1 changes in 900 seconds. Saving...
+1:M 06 Jul 11:18:49.092 * Background saving started by pid 16
+16:C 06 Jul 11:18:49.094 * DB saved on disk
+16:C 06 Jul 11:18:49.094 * RDB: 0 MB of memory used by copy-on-write
+1:M 06 Jul 11:18:49.192 * Background saving terminated with success
+1:M 06 Jul 17:21:34.979 * DB saved on disk
+1:M 06 Jul 17:21:35.110 * DB saved on disk
+1:M 06 Jul 17:21:38.279 * DB saved on disk
+1:M 06 Jul 17:21:41.335 * DB saved on disk
+1:M 06 Jul 17:21:44.423 * DB saved on disk
+1:M 06 Jul 17:21:44.532 * DB saved on disk
+1:M 06 Jul 17:21:47.594 * DB saved on disk
+1:M 06 Jul 17:21:50.686 * DB saved on disk
+1:M 06 Jul 17:21:53.772 * DB saved on disk
+1:M 06 Jul 17:21:53.872 * DB saved on disk
+1:M 06 Jul 17:21:56.944 * DB saved on disk
+1:M 06 Jul 17:22:00.004 * DB saved on disk
+1:M 06 Jul 17:22:03.084 * DB saved on disk
+1:M 06 Jul 17:22:03.227 * DB saved on disk
+1:M 06 Jul 17:22:06.573 * DB saved on disk
+1:M 06 Jul 17:22:09.633 * DB saved on disk
+1:M 06 Jul 17:22:12.761 * DB saved on disk
+1:M 06 Jul 17:22:12.902 * DB saved on disk
+1:M 06 Jul 17:22:15.974 * DB saved on disk
+1:M 06 Jul 17:22:19.071 * DB saved on disk
+1:M 06 Jul 17:22:22.168 * DB saved on disk
+1:M 06 Jul 17:22:22.288 * DB saved on disk
+1:M 06 Jul 17:22:25.383 * DB saved on disk
+1:M 06 Jul 17:22:28.469 * DB saved on disk
+1:M 06 Jul 17:22:31.553 * DB saved on disk
+1:M 06 Jul 17:22:31.662 * DB saved on disk
+1:M 06 Jul 17:22:34.720 * DB saved on disk
+1:M 06 Jul 17:22:37.775 * DB saved on disk
+1:M 06 Jul 17:22:40.911 * DB saved on disk
+1:M 06 Jul 17:22:41.005 * DB saved on disk
+1:M 06 Jul 17:22:44.066 * DB saved on disk
+1:M 06 Jul 17:22:47.125 * DB saved on disk
+1:M 06 Jul 17:22:50.216 * DB saved on disk
+1:M 06 Jul 17:22:50.315 * DB saved on disk
+1:M 06 Jul 17:22:53.377 * DB saved on disk
+1:M 06 Jul 17:22:56.602 * DB saved on disk
+1:M 06 Jul 17:22:59.682 * DB saved on disk
+1:M 06 Jul 17:22:59.786 * DB saved on disk
+1:M 06 Jul 17:23:02.846 * DB saved on disk
+1:M 06 Jul 17:23:05.960 * DB saved on disk
+1:M 06 Jul 17:23:09.056 * DB saved on disk
+1:M 06 Jul 17:23:09.168 * DB saved on disk
+1:M 06 Jul 17:23:12.307 * DB saved on disk
+1:M 06 Jul 17:23:15.467 * DB saved on disk
+1:M 06 Jul 17:54:41.681 * DB saved on disk
+1:M 06 Jul 17:54:41.828 * DB saved on disk
+1:M 06 Jul 17:54:44.903 * DB saved on disk
+1:M 06 Jul 17:54:47.994 * DB saved on disk
+1:M 06 Jul 17:54:51.106 * DB saved on disk
+1:M 06 Jul 17:54:51.253 * DB saved on disk
+1:M 06 Jul 17:54:54.330 * DB saved on disk
+1:M 06 Jul 17:54:57.404 * DB saved on disk
+1:M 06 Jul 17:55:00.514 * DB saved on disk
+1:M 06 Jul 17:55:00.663 * DB saved on disk
+1:M 06 Jul 17:55:03.738 * DB saved on disk
+1:M 06 Jul 17:55:06.812 * DB saved on disk
+1:M 06 Jul 17:55:09.923 * DB saved on disk
+1:M 06 Jul 17:55:10.069 * DB saved on disk
+1:M 06 Jul 17:55:13.143 * DB saved on disk
+1:M 06 Jul 17:55:16.218 * DB saved on disk
+1:M 06 Jul 17:55:19.329 * DB saved on disk
+1:M 06 Jul 17:55:19.475 * DB saved on disk
+1:M 06 Jul 17:55:22.549 * DB saved on disk
+1:M 06 Jul 17:55:25.624 * DB saved on disk
+1:M 06 Jul 17:55:28.734 * DB saved on disk
+1:M 06 Jul 17:55:28.881 * DB saved on disk
+1:M 06 Jul 17:55:31.955 * DB saved on disk
+1:M 06 Jul 17:55:35.030 * DB saved on disk
+1:M 06 Jul 17:55:38.141 * DB saved on disk
+1:M 06 Jul 17:55:38.287 * DB saved on disk
+1:M 06 Jul 17:55:41.361 * DB saved on disk
+1:M 06 Jul 17:55:44.435 * DB saved on disk
+1:M 06 Jul 17:55:47.546 * DB saved on disk
+1:M 06 Jul 17:55:47.692 * DB saved on disk
+1:M 06 Jul 17:55:50.767 * DB saved on disk
+1:M 06 Jul 17:55:53.842 * DB saved on disk
+1:M 06 Jul 17:55:56.953 * DB saved on disk
+1:M 06 Jul 17:55:57.099 * DB saved on disk
+1:M 06 Jul 17:56:00.174 * DB saved on disk
+1:M 06 Jul 17:56:03.248 * DB saved on disk
+1:M 06 Jul 17:56:06.358 * DB saved on disk
+1:M 06 Jul 17:56:06.504 * DB saved on disk
+1:M 06 Jul 17:56:09.579 * DB saved on disk
+1:M 06 Jul 17:56:12.653 * DB saved on disk
+1:M 06 Jul 17:56:15.763 * DB saved on disk
+1:M 06 Jul 17:56:15.910 * DB saved on disk
+1:M 06 Jul 17:56:18.985 * DB saved on disk
+1:M 06 Jul 17:56:22.059 * DB saved on disk
+1:M 07 Jul 01:34:37.371 * 1 changes in 900 seconds. Saving...
+1:M 07 Jul 01:34:37.371 * Background saving started by pid 23
+23:C 07 Jul 01:34:37.374 * DB saved on disk
+23:C 07 Jul 01:34:37.375 * RDB: 0 MB of memory used by copy-on-write
+1:M 07 Jul 01:34:37.471 * Background saving terminated with success
+1:M 07 Jul 01:49:38.048 * 1 changes in 900 seconds. Saving...
+1:M 07 Jul 01:49:38.048 * Background saving started by pid 24
+24:C 07 Jul 01:49:38.050 * DB saved on disk
+24:C 07 Jul 01:49:38.051 * RDB: 0 MB of memory used by copy-on-write
+1:M 07 Jul 01:49:38.148 * Background saving terminated with success
