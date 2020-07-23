@@ -1,0 +1,101 @@
+#能够编排管理3个容器,redis  安装 php,,redis 安装 nginx
+version: "3.6"
+services: #服务
+  master-1:
+    image: redis
+    container_name: master-1
+    networks:
+      mynetwork: #网络名称
+         ipv4_address: 192.168.1.11   #设置ip地址
+    working_dir: /usr/src/redis  #工作目录
+    stdin_open: true
+    tty: true
+    ports:
+        - "6386:6379"
+
+    volumes:
+      - /root/www/docker/redis/redis-sentinel/master-1:/usr/src/redis
+  slave-1:
+      image: redis
+      container_name: slave-1
+      links:
+        - master-1
+      networks:
+        mynetwork: #网络名称
+           ipv4_address: 192.168.1.12   #设置ip地址
+      working_dir: /usr/src/redis #工作目录
+      stdin_open: true
+      tty: true
+      ports:
+          - "6387:6379"
+      volumes:
+         - /root/www/docker/redis/redis-sentinel/slave-1:/usr/src/redis
+  slave-2:
+        image: redis
+        container_name: slave-2
+        networks:
+          mynetwork: #网络名称
+             ipv4_address: 192.168.1.13   #设置ip地址
+        working_dir: /usr/src/redis #工作目录
+        stdin_open: true
+        links:
+          - master-1
+        tty: true
+        ports:
+            - "6388:6379"
+        volumes:
+          - /root/www/docker/redis/redis-sentinel/slave-2:/usr/src/redis
+
+  sentinel-1:
+        image: redis
+        container_name: sentinel-1
+        links:
+          - master-1
+        networks:
+          mynetwork: #网络名称
+             ipv4_address: 192.168.1.14   #设置ip地址
+        working_dir: /usr/src/redis #工作目录
+        stdin_open: true
+        tty: true
+        ports:
+            - "26386:26379"
+        volumes:
+          - /root/www/docker/redis/redis-sentinel/sentinel-1:/usr/src/redis
+        command: ["redis-sentinel","/usr/src/redis/conf/sentinel.conf"]
+  sentinel-2:
+      image: redis
+      container_name: sentinel-2
+      links:
+        - master-1
+      networks:
+         mynetwork: #网络名称
+           ipv4_address: 192.168.1.15   #设置ip地址
+      working_dir: /usr/src/redis #工作目录
+      stdin_open: true
+      tty: true
+      ports:
+          - "26387:26379"
+      volumes:
+       - /root/www/docker/redis/redis-sentinel/sentinel-2:/usr/src/redis
+      command: ["redis-sentinel","/usr/src/redis/conf/sentinel.conf"]
+  sentinel-3:
+      image: redis
+      container_name: sentinel-3
+      links:
+        - master-1
+      networks:
+        mynetwork: #网络名称
+           ipv4_address: 192.168.1.16   #设置ip地址
+      working_dir: /usr/src/redis #工作目录
+      stdin_open: true
+      tty: true
+      ports:
+          - "26388:26379"
+      volumes:
+        - /root/www/docker/redis/redis-sentinel/sentinel-3:/usr/src/redis
+      command: ["redis-sentinel","/usr/src/redis/conf/sentinel.conf"]
+  #引用外部预先定义好的网段
+networks:
+  mynetwork:
+   external:
+      name: mynetwork
