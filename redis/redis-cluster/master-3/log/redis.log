@@ -1,0 +1,40 @@
+5:C 17 Jul 03:20:29.742 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5:C 17 Jul 03:20:29.742 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=5, just started
+5:C 17 Jul 03:20:29.742 # Configuration loaded
+5:M 17 Jul 03:20:29.743 * No cluster configuration found, I'm 343ffba0ba2b743cec6ca154a6d0d5722d667a74
+5:M 17 Jul 03:20:29.758 * Running mode=cluster, port=6379.
+5:M 17 Jul 03:20:29.758 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+5:M 17 Jul 03:20:29.758 # Server initialized
+5:M 17 Jul 03:20:29.758 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+5:M 17 Jul 03:20:29.758 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+5:M 17 Jul 03:20:29.758 * Ready to accept connections
+5:C 17 Jul 03:22:03.099 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5:C 17 Jul 03:22:03.099 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=5, just started
+5:C 17 Jul 03:22:03.099 # Configuration loaded
+5:M 17 Jul 03:22:03.100 * Node configuration loaded, I'm 343ffba0ba2b743cec6ca154a6d0d5722d667a74
+5:M 17 Jul 03:22:03.100 * Running mode=cluster, port=6379.
+5:M 17 Jul 03:22:03.100 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+5:M 17 Jul 03:22:03.100 # Server initialized
+5:M 17 Jul 03:22:03.100 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+5:M 17 Jul 03:22:03.100 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+5:M 17 Jul 03:22:03.100 * Ready to accept connections
+5:C 17 Jul 03:37:51.997 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5:C 17 Jul 03:37:51.997 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=5, just started
+5:C 17 Jul 03:37:51.997 # Configuration loaded
+5:M 17 Jul 03:37:51.999 * No cluster configuration found, I'm 195112a774e0adc62064d586499dbb6c46111319
+5:M 17 Jul 03:37:52.006 * Running mode=cluster, port=6379.
+5:M 17 Jul 03:37:52.006 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+5:M 17 Jul 03:37:52.006 # Server initialized
+5:M 17 Jul 03:37:52.006 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+5:M 17 Jul 03:37:52.006 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+5:M 17 Jul 03:37:52.007 * Ready to accept connections
+5:M 17 Jul 03:47:30.687 # configEpoch set to 3 via CLUSTER SET-CONFIG-EPOCH
+5:M 17 Jul 03:47:34.727 * Slave 47.105.193.17:6379 asks for synchronization
+5:M 17 Jul 03:47:34.727 * Partial resynchronization not accepted: Replication ID mismatch (Slave asked for '2f9db0ce429bb185e847884bcf5e69875919071b', my replication IDs are '67332e3694408510f43a093a7b1ffd29bfa194af' and '0000000000000000000000000000000000000000')
+5:M 17 Jul 03:47:34.727 * Starting BGSAVE for SYNC with target: disk
+5:M 17 Jul 03:47:34.727 * Background saving started by pid 9
+9:C 17 Jul 03:47:34.735 * DB saved on disk
+9:C 17 Jul 03:47:34.735 * RDB: 0 MB of memory used by copy-on-write
+5:M 17 Jul 03:47:34.824 * Background saving terminated with success
+5:M 17 Jul 03:47:34.824 * Synchronization with slave 47.105.193.17:6379 succeeded
+5:M 17 Jul 03:47:35.625 # Cluster state changed: ok

@@ -1,0 +1,76 @@
+1:C 16 Jul 03:45:38.773 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 16 Jul 03:45:38.773 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 16 Jul 03:45:38.773 # Configuration loaded
+1:M 16 Jul 03:45:38.774 * Running mode=standalone, port=26379.
+1:M 16 Jul 03:45:38.775 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 16 Jul 03:45:38.775 # Server initialized
+1:M 16 Jul 03:45:38.775 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 16 Jul 03:45:38.775 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 16 Jul 03:45:38.775 * Ready to accept connections
+1:signal-handler (1594871151) Received SIGTERM scheduling shutdown...
+1:M 16 Jul 03:45:51.560 # User requested shutdown...
+1:M 16 Jul 03:45:51.560 * Calling fsync() on the AOF file.
+1:M 16 Jul 03:45:51.564 * Saving the final RDB snapshot before exiting.
+1:M 16 Jul 03:45:51.572 * DB saved on disk
+1:M 16 Jul 03:45:51.572 * Removing the pid file.
+1:M 16 Jul 03:45:51.572 # Redis is now ready to exit, bye bye...
+1:C 16 Jul 03:46:14.113 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 16 Jul 03:46:14.113 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 16 Jul 03:46:14.113 # Configuration loaded
+1:M 16 Jul 03:46:14.114 * Running mode=standalone, port=26379.
+1:M 16 Jul 03:46:14.114 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 16 Jul 03:46:14.114 # Server initialized
+1:M 16 Jul 03:46:14.114 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 16 Jul 03:46:14.114 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 16 Jul 03:46:14.114 * Ready to accept connections
+1:signal-handler (1594871246) Received SIGTERM scheduling shutdown...
+1:M 16 Jul 03:47:26.436 # User requested shutdown...
+1:M 16 Jul 03:47:26.436 * Calling fsync() on the AOF file.
+1:M 16 Jul 03:47:26.439 * Saving the final RDB snapshot before exiting.
+1:M 16 Jul 03:47:26.455 * DB saved on disk
+1:M 16 Jul 03:47:26.455 * Removing the pid file.
+1:M 16 Jul 03:47:26.455 # Redis is now ready to exit, bye bye...
+1:C 16 Jul 03:47:45.728 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 16 Jul 03:47:45.728 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 16 Jul 03:47:45.728 # Configuration loaded
+1:M 16 Jul 03:47:45.730 * Running mode=standalone, port=26379.
+1:M 16 Jul 03:47:45.730 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:M 16 Jul 03:47:45.730 # Server initialized
+1:M 16 Jul 03:47:45.730 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+1:M 16 Jul 03:47:45.730 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+1:M 16 Jul 03:47:45.730 * Ready to accept connections
+19:C 16 Jul 03:55:17.803 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19:C 16 Jul 03:55:17.803 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=19, just started
+19:C 16 Jul 03:55:17.803 # Configuration loaded
+19:M 16 Jul 03:55:17.804 # Creating Server TCP listening socket 0.0.0.0:26379: bind: Address in use
+1:S 16 Jul 03:55:56.750 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+1:S 16 Jul 03:55:56.750 * SLAVE OF 47.105.193.17:6386 enabled (user request from 'id=3 addr=127.0.0.1:60932 fd=8 name= age=31 idle=0 flags=N db=0 sub=0 psub=0 multi=-1 qbuf=0 qbuf-free=32768 obl=0 oll=0 omem=0 events=r cmd=slaveof')
+1:S 16 Jul 03:55:56.771 * Connecting to MASTER 47.105.193.17:6386
+1:S 16 Jul 03:55:56.772 * MASTER <-> SLAVE sync started
+1:S 16 Jul 03:55:56.772 * Non blocking connect for SYNC fired the event.
+1:S 16 Jul 03:55:56.772 * Master replied to PING, replication can continue...
+1:S 16 Jul 03:55:56.773 * Trying a partial resynchronization (request c0be710c81bec7d667b90007d26a680b2da079db:1).
+1:S 16 Jul 03:55:56.774 * Full resync from master: efc27ff012522909b7cdb01012e3477e10703064:0
+1:S 16 Jul 03:55:56.774 * Discarding previously cached master state.
+1:S 16 Jul 03:55:56.872 * MASTER <-> SLAVE sync: receiving 176 bytes from master
+1:S 16 Jul 03:55:56.873 * MASTER <-> SLAVE sync: Flushing old data
+1:S 16 Jul 03:55:56.873 * MASTER <-> SLAVE sync: Loading DB in memory
+1:S 16 Jul 03:55:56.873 * MASTER <-> SLAVE sync: Finished with success
+1:S 16 Jul 03:55:56.874 * Background append only file rewriting started by pid 21
+1:S 16 Jul 03:55:56.897 * AOF rewrite child asks to stop sending diffs.
+21:C 16 Jul 03:55:56.897 * Parent agreed to stop sending diffs. Finalizing AOF...
+21:C 16 Jul 03:55:56.897 * Concatenating 0.00 MB of AOF diff received from parent.
+21:C 16 Jul 03:55:56.898 * SYNC append only file rewrite performed
+21:C 16 Jul 03:55:56.898 * AOF rewrite: 0 MB of memory used by copy-on-write
+1:S 16 Jul 03:55:56.972 * Background AOF rewrite terminated with success
+1:S 16 Jul 03:55:56.973 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+1:S 16 Jul 03:55:56.973 * Background AOF rewrite finished successfully
+1:signal-handler (1595311053) Received SIGTERM scheduling shutdown...
+1:S 21 Jul 05:57:33.697 # Connection with master lost.
+1:S 21 Jul 05:57:33.697 * Caching the disconnected master state.
+1:S 21 Jul 05:57:33.735 # User requested shutdown...
+1:S 21 Jul 05:57:33.735 * Calling fsync() on the AOF file.
+1:S 21 Jul 05:57:33.736 * Saving the final RDB snapshot before exiting.
+1:S 21 Jul 05:57:33.738 * DB saved on disk
+1:S 21 Jul 05:57:33.738 * Removing the pid file.
+1:S 21 Jul 05:57:33.739 # Redis is now ready to exit, bye bye...

@@ -1,0 +1,34 @@
+1:X 16 Jul 03:45:38.108 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:X 16 Jul 03:45:38.108 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=1, just started
+1:X 16 Jul 03:45:38.108 # Configuration loaded
+1:X 16 Jul 03:45:38.109 * Running mode=sentinel, port=26379.
+1:X 16 Jul 03:45:38.109 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:X 16 Jul 03:45:38.117 # Sentinel ID is 79a6f3bf396c090f23c49096bb131e54277e9c4c
+1:X 16 Jul 03:45:38.117 # +monitor master mymaster 192.168.1.11 6379 quorum 2
+1:X 16 Jul 03:45:40.415 * +sentinel sentinel d0a1a6d8a3889a372ae23bfdb777a55db8d5b332 192.168.1.15 26379 @ mymaster 192.168.1.11 6379
+1:X 16 Jul 03:45:40.760 * +sentinel sentinel 1d63c2ad7646c6e3b371addd7768d3945bdd63ee 192.168.1.16 26379 @ mymaster 192.168.1.11 6379
+1:signal-handler (1594871151) Received SIGTERM scheduling shutdown...
+1:X 16 Jul 03:45:51.506 # User requested shutdown...
+1:X 16 Jul 03:45:51.506 # Sentinel is now ready to exit, bye bye...
+1:X 16 Jul 03:46:13.669 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:X 16 Jul 03:46:13.669 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=1, just started
+1:X 16 Jul 03:46:13.669 # Configuration loaded
+1:X 16 Jul 03:46:13.670 * Running mode=sentinel, port=26379.
+1:X 16 Jul 03:46:13.670 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:X 16 Jul 03:46:13.670 # Sentinel ID is 79a6f3bf396c090f23c49096bb131e54277e9c4c
+1:X 16 Jul 03:46:13.670 # +monitor master mymaster 192.168.1.11 6379 quorum 2
+1:signal-handler (1594871246) Received SIGTERM scheduling shutdown...
+1:X 16 Jul 03:47:26.409 # User requested shutdown...
+1:X 16 Jul 03:47:26.409 # Sentinel is now ready to exit, bye bye...
+1:X 16 Jul 03:47:45.522 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:X 16 Jul 03:47:45.522 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=1, just started
+1:X 16 Jul 03:47:45.522 # Configuration loaded
+1:X 16 Jul 03:47:45.523 * Running mode=sentinel, port=26379.
+1:X 16 Jul 03:47:45.523 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+1:X 16 Jul 03:47:45.523 # Sentinel ID is 79a6f3bf396c090f23c49096bb131e54277e9c4c
+1:X 16 Jul 03:47:45.523 # +monitor master mymaster 192.168.1.11 6379 quorum 2
+1:X 16 Jul 03:55:57.449 * +slave slave 47.105.193.17:26379 47.105.193.17 26379 @ mymaster 192.168.1.11 6379
+1:X 16 Jul 03:56:07.454 # +sdown slave 47.105.193.17:26379 47.105.193.17 26379 @ mymaster 192.168.1.11 6379
+1:signal-handler (1595311053) Received SIGTERM scheduling shutdown...
+1:X 21 Jul 05:57:33.558 # User requested shutdown...
+1:X 21 Jul 05:57:33.558 # Sentinel is now ready to exit, bye bye...

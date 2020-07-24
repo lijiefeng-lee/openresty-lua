@@ -1,0 +1,43 @@
+5:C 17 Jul 03:22:03.677 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5:C 17 Jul 03:22:03.677 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=5, just started
+5:C 17 Jul 03:22:03.677 # Configuration loaded
+5:M 17 Jul 03:22:03.679 * No cluster configuration found, I'm 7a2a730e96aa64d22f87b4bc7ce72c28ba8ba56d
+5:M 17 Jul 03:22:03.703 * Running mode=cluster, port=6379.
+5:M 17 Jul 03:22:03.703 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+5:M 17 Jul 03:22:03.703 # Server initialized
+5:M 17 Jul 03:22:03.703 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+5:M 17 Jul 03:22:03.703 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+5:M 17 Jul 03:22:03.703 * Ready to accept connections
+5:C 17 Jul 03:37:51.351 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5:C 17 Jul 03:37:51.351 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=5, just started
+5:C 17 Jul 03:37:51.351 # Configuration loaded
+5:M 17 Jul 03:37:51.352 * No cluster configuration found, I'm e916cb7210695fa26c50d734acc385b6b44d45af
+5:M 17 Jul 03:37:51.360 * Running mode=cluster, port=6379.
+5:M 17 Jul 03:37:51.360 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+5:M 17 Jul 03:37:51.360 # Server initialized
+5:M 17 Jul 03:37:51.361 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+5:M 17 Jul 03:37:51.361 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+5:M 17 Jul 03:37:51.361 * Ready to accept connections
+5:M 17 Jul 03:47:30.688 # configEpoch set to 4 via CLUSTER SET-CONFIG-EPOCH
+5:S 17 Jul 03:47:34.709 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+5:S 17 Jul 03:47:34.709 # Cluster state changed: ok
+5:S 17 Jul 03:47:35.620 * Connecting to MASTER 47.105.193.17:6390
+5:S 17 Jul 03:47:35.620 * MASTER <-> SLAVE sync started
+5:S 17 Jul 03:47:35.621 * Non blocking connect for SYNC fired the event.
+5:S 17 Jul 03:47:35.621 * Master replied to PING, replication can continue...
+5:S 17 Jul 03:47:35.622 * Trying a partial resynchronization (request fcc26baa0dfa870448ce5ec2072a887c9f9188ee:1).
+5:S 17 Jul 03:47:35.623 * Full resync from master: f4e25571194bdfc345c982b4c4b8c6a76fbd2eb2:0
+5:S 17 Jul 03:47:35.623 * Discarding previously cached master state.
+5:S 17 Jul 03:47:35.630 * MASTER <-> SLAVE sync: receiving 176 bytes from master
+5:S 17 Jul 03:47:35.630 * MASTER <-> SLAVE sync: Flushing old data
+5:S 17 Jul 03:47:35.631 * MASTER <-> SLAVE sync: Loading DB in memory
+5:S 17 Jul 03:47:35.631 * MASTER <-> SLAVE sync: Finished with success
+5:S 17 Jul 03:47:35.631 * Background append only file rewriting started by pid 9
+5:S 17 Jul 03:47:35.654 * AOF rewrite child asks to stop sending diffs.
+9:C 17 Jul 03:47:35.655 * Parent agreed to stop sending diffs. Finalizing AOF...
+9:C 17 Jul 03:47:35.655 * Concatenating 0.00 MB of AOF diff received from parent.
+9:C 17 Jul 03:47:35.655 * SYNC append only file rewrite performed
+9:C 17 Jul 03:47:35.655 * AOF rewrite: 0 MB of memory used by copy-on-write
+5:S 17 Jul 03:47:35.721 * Background AOF rewrite terminated with success
+5:S 17 Jul 03:47:35.721 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+5:S 17 Jul 03:47:35.721 * Background AOF rewrite finished successfully

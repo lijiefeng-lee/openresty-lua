@@ -1,0 +1,111 @@
+5:C 17 Jul 03:22:03.724 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5:C 17 Jul 03:22:03.724 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=5, just started
+5:C 17 Jul 03:22:03.724 # Configuration loaded
+5:M 17 Jul 03:22:03.725 * No cluster configuration found, I'm 2b4d0b99b73328178b25103941b1e4ed25e2dc22
+5:M 17 Jul 03:22:03.737 * Running mode=cluster, port=6379.
+5:M 17 Jul 03:22:03.737 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+5:M 17 Jul 03:22:03.737 # Server initialized
+5:M 17 Jul 03:22:03.737 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+5:M 17 Jul 03:22:03.737 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+5:M 17 Jul 03:22:03.737 * Ready to accept connections
+5:C 17 Jul 03:37:52.174 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5:C 17 Jul 03:37:52.174 # Redis version=4.0.11, bits=64, commit=00000000, modified=0, pid=5, just started
+5:C 17 Jul 03:37:52.174 # Configuration loaded
+5:M 17 Jul 03:37:52.175 * No cluster configuration found, I'm ba2b162c5d3d52f2cfe67da0e89a6c02d3119590
+5:M 17 Jul 03:37:52.187 * Running mode=cluster, port=6379.
+5:M 17 Jul 03:37:52.187 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+5:M 17 Jul 03:37:52.187 # Server initialized
+5:M 17 Jul 03:37:52.187 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+5:M 17 Jul 03:37:52.187 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+5:M 17 Jul 03:37:52.187 * Ready to accept connections
+5:M 17 Jul 03:47:30.688 # configEpoch set to 5 via CLUSTER SET-CONFIG-EPOCH
+5:S 17 Jul 03:47:34.710 * Before turning into a slave, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+5:S 17 Jul 03:47:34.710 # Cluster state changed: ok
+5:S 17 Jul 03:47:35.422 * Connecting to MASTER 47.105.193.17:6391
+5:S 17 Jul 03:47:35.422 * MASTER <-> SLAVE sync started
+5:S 17 Jul 03:47:35.422 * Non blocking connect for SYNC fired the event.
+5:S 17 Jul 03:47:35.423 * Master replied to PING, replication can continue...
+5:S 17 Jul 03:47:35.423 * Trying a partial resynchronization (request 51332450b3db8ccb70476e89b6489f84de640837:1).
+5:S 17 Jul 03:47:35.424 * Full resync from master: 4f51394af2e070f68ed311d9ed5c85c7c181354c:0
+5:S 17 Jul 03:47:35.424 * Discarding previously cached master state.
+5:S 17 Jul 03:47:35.429 * MASTER <-> SLAVE sync: receiving 176 bytes from master
+5:S 17 Jul 03:47:35.429 * MASTER <-> SLAVE sync: Flushing old data
+5:S 17 Jul 03:47:35.429 * MASTER <-> SLAVE sync: Loading DB in memory
+5:S 17 Jul 03:47:35.429 * MASTER <-> SLAVE sync: Finished with success
+5:S 17 Jul 03:47:35.430 * Background append only file rewriting started by pid 9
+5:S 17 Jul 03:47:35.453 * AOF rewrite child asks to stop sending diffs.
+9:C 17 Jul 03:47:35.453 * Parent agreed to stop sending diffs. Finalizing AOF...
+9:C 17 Jul 03:47:35.453 * Concatenating 0.00 MB of AOF diff received from parent.
+9:C 17 Jul 03:47:35.453 * SYNC append only file rewrite performed
+9:C 17 Jul 03:47:35.454 * AOF rewrite: 0 MB of memory used by copy-on-write
+5:S 17 Jul 03:47:35.522 * Background AOF rewrite terminated with success
+5:S 17 Jul 03:47:35.522 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+5:S 17 Jul 03:47:35.522 * Background AOF rewrite finished successfully
+5:S 20 Jul 20:00:04.607 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:04.851 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:05.089 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:05.336 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:05.586 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:05.816 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:21.093 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:21.332 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:21.563 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:21.794 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:22.032 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:22.281 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:22.530 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:22.963 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:23.583 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:24.009 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:24.235 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:24.475 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:24.719 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:24.963 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:25.207 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:25.441 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:25.679 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:30.937 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:31.177 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:31.410 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:31.651 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:31.884 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:37.139 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:37.381 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:37.609 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:47.889 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:48.138 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:48.376 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:48.609 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:48.852 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:54.110 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:54.347 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:54.585 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:00:59.854 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:00.098 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:00.333 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:00.582 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:00.826 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:01.070 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:06.332 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:06.567 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:16.827 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:22.080 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:22.310 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:22.736 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:22.983 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:28.238 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:28.476 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:28.704 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:35.296 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:45.316 # Bad message length or signature received from Cluster bus.
+5:S 20 Jul 20:01:45.356 # Bad message length or signature received from Cluster bus.
+5:S 21 Jul 01:12:12.577 # Bad message length or signature received from Cluster bus.
+5:S 21 Jul 01:12:12.615 # Bad message length or signature received from Cluster bus.
+5:S 21 Jul 01:12:12.649 # Bad message length or signature received from Cluster bus.
+5:S 21 Jul 01:12:12.697 # Bad message length or signature received from Cluster bus.
+5:S 21 Jul 01:22:09.327 # Bad message length or signature received from Cluster bus.
+5:S 21 Jul 01:22:09.367 # Bad message length or signature received from Cluster bus.
+5:S 21 Jul 01:22:09.400 # Bad message length or signature received from Cluster bus.
+5:S 21 Jul 01:22:09.447 # Bad message length or signature received from Cluster bus.
+5:S 21 Jul 05:57:43.660 # Connection with master lost.
+5:S 21 Jul 05:57:43.660 * Caching the disconnected master state.
