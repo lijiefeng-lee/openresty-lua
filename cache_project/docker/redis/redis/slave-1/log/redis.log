@@ -1,0 +1,43 @@
+5:C 22 Jul 2020 14:10:49.530 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5:C 22 Jul 2020 14:10:49.536 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=5, just started
+5:C 22 Jul 2020 14:10:49.536 # Configuration loaded
+5:M 22 Jul 2020 14:10:49.537 * No cluster configuration found, I'm 1e3c02ad89fb6e25ba9238fcafbc98ef88540ad0
+5:M 22 Jul 2020 14:10:49.543 * Running mode=cluster, port=6379.
+5:M 22 Jul 2020 14:10:49.543 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+5:M 22 Jul 2020 14:10:49.543 # Server initialized
+5:M 22 Jul 2020 14:10:49.543 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+5:M 22 Jul 2020 14:10:49.543 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+5:M 22 Jul 2020 14:10:49.543 * Ready to accept connections
+5:C 23 Jul 2020 09:46:36.552 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5:C 23 Jul 2020 09:46:36.555 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=5, just started
+5:C 23 Jul 2020 09:46:36.555 # Configuration loaded
+5:M 23 Jul 2020 09:46:36.560 * Node configuration loaded, I'm 1e3c02ad89fb6e25ba9238fcafbc98ef88540ad0
+5:M 23 Jul 2020 09:46:36.561 * Running mode=cluster, port=6379.
+5:M 23 Jul 2020 09:46:36.561 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+5:M 23 Jul 2020 09:46:36.561 # Server initialized
+5:M 23 Jul 2020 09:46:36.561 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+5:M 23 Jul 2020 09:46:36.561 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+5:M 23 Jul 2020 09:46:36.561 * Ready to accept connections
+5:M 24 Jul 2020 10:09:47.659 # configEpoch set to 4 via CLUSTER SET-CONFIG-EPOCH
+5:S 24 Jul 2020 10:09:51.671 * Before turning into a replica, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+5:S 24 Jul 2020 10:09:51.671 # Cluster state changed: ok
+5:S 24 Jul 2020 10:09:52.023 * Connecting to MASTER 47.105.193.17:6392
+5:S 24 Jul 2020 10:09:52.023 * MASTER <-> REPLICA sync started
+5:S 24 Jul 2020 10:09:52.023 * Non blocking connect for SYNC fired the event.
+5:S 24 Jul 2020 10:09:52.024 * Master replied to PING, replication can continue...
+5:S 24 Jul 2020 10:09:52.029 * Trying a partial resynchronization (request f20a7cc9e587e92118ba8774236c0f80d8900205:1).
+5:S 24 Jul 2020 10:09:52.030 * Full resync from master: f895a2dc20d3e251d5ce3b39a8827a85d8adf828:0
+5:S 24 Jul 2020 10:09:52.030 * Discarding previously cached master state.
+5:S 24 Jul 2020 10:09:52.123 * MASTER <-> REPLICA sync: receiving 175 bytes from master
+5:S 24 Jul 2020 10:09:52.123 * MASTER <-> REPLICA sync: Flushing old data
+5:S 24 Jul 2020 10:09:52.124 * MASTER <-> REPLICA sync: Loading DB in memory
+5:S 24 Jul 2020 10:09:52.124 * MASTER <-> REPLICA sync: Finished with success
+5:S 24 Jul 2020 10:09:52.124 * Background append only file rewriting started by pid 9
+5:S 24 Jul 2020 10:09:52.149 * AOF rewrite child asks to stop sending diffs.
+9:C 24 Jul 2020 10:09:52.149 * Parent agreed to stop sending diffs. Finalizing AOF...
+9:C 24 Jul 2020 10:09:52.149 * Concatenating 0.00 MB of AOF diff received from parent.
+9:C 24 Jul 2020 10:09:52.149 * SYNC append only file rewrite performed
+9:C 24 Jul 2020 10:09:52.149 * AOF rewrite: 0 MB of memory used by copy-on-write
+5:S 24 Jul 2020 10:09:52.223 * Background AOF rewrite terminated with success
+5:S 24 Jul 2020 10:09:52.223 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+5:S 24 Jul 2020 10:09:52.223 * Background AOF rewrite finished successfully

@@ -273,7 +273,7 @@ class ClassLoader
     }
 
     /**
-     * APCu prefix to use to cache found/not-found classes, if the extension is enabled.
+     * APCu prefix to use to cache_project found/not-found classes, if the extension is enabled.
      *
      * @param string|null $apcuPrefix
      */

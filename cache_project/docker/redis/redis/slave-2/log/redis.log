@@ -1,0 +1,105 @@
+5:C 22 Jul 2020 14:10:50.847 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5:C 22 Jul 2020 14:10:50.847 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=5, just started
+5:C 22 Jul 2020 14:10:50.847 # Configuration loaded
+5:M 22 Jul 2020 14:10:50.848 * No cluster configuration found, I'm fb839d8870bfa3e763dc9b8b5aefa1137608a2f1
+5:M 22 Jul 2020 14:10:50.855 * Running mode=cluster, port=6379.
+5:M 22 Jul 2020 14:10:50.855 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+5:M 22 Jul 2020 14:10:50.855 # Server initialized
+5:M 22 Jul 2020 14:10:50.855 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+5:M 22 Jul 2020 14:10:50.855 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+5:M 22 Jul 2020 14:10:50.855 * Ready to accept connections
+5:C 23 Jul 2020 09:46:36.339 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5:C 23 Jul 2020 09:46:36.340 # Redis version=5.0.5, bits=64, commit=00000000, modified=0, pid=5, just started
+5:C 23 Jul 2020 09:46:36.340 # Configuration loaded
+5:M 23 Jul 2020 09:46:36.344 * Node configuration loaded, I'm fb839d8870bfa3e763dc9b8b5aefa1137608a2f1
+5:M 23 Jul 2020 09:46:36.345 * Running mode=cluster, port=6379.
+5:M 23 Jul 2020 09:46:36.345 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+5:M 23 Jul 2020 09:46:36.345 # Server initialized
+5:M 23 Jul 2020 09:46:36.345 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+5:M 23 Jul 2020 09:46:36.345 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+5:M 23 Jul 2020 09:46:36.345 * Ready to accept connections
+5:M 24 Jul 2020 10:09:47.659 # configEpoch set to 5 via CLUSTER SET-CONFIG-EPOCH
+5:S 24 Jul 2020 10:09:51.672 * Before turning into a replica, using my master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+5:S 24 Jul 2020 10:09:51.672 # Cluster state changed: ok
+5:S 24 Jul 2020 10:09:51.821 * Connecting to MASTER 47.105.193.17:6390
+5:S 24 Jul 2020 10:09:51.822 * MASTER <-> REPLICA sync started
+5:S 24 Jul 2020 10:09:51.822 * Non blocking connect for SYNC fired the event.
+5:S 24 Jul 2020 10:09:51.823 * Master replied to PING, replication can continue...
+5:S 24 Jul 2020 10:09:51.823 * Trying a partial resynchronization (request c16d24a4147a77904c86ec6423aae02ca3ede422:1).
+5:S 24 Jul 2020 10:09:51.825 * Full resync from master: 91997829396f1e3d57b59ac811291ee1b67f4fdd:0
+5:S 24 Jul 2020 10:09:51.825 * Discarding previously cached master state.
+5:S 24 Jul 2020 10:09:51.918 * MASTER <-> REPLICA sync: receiving 175 bytes from master
+5:S 24 Jul 2020 10:09:51.918 * MASTER <-> REPLICA sync: Flushing old data
+5:S 24 Jul 2020 10:09:51.918 * MASTER <-> REPLICA sync: Loading DB in memory
+5:S 24 Jul 2020 10:09:51.919 * MASTER <-> REPLICA sync: Finished with success
+5:S 24 Jul 2020 10:09:51.919 * Background append only file rewriting started by pid 9
+5:S 24 Jul 2020 10:09:51.946 * AOF rewrite child asks to stop sending diffs.
+9:C 24 Jul 2020 10:09:51.946 * Parent agreed to stop sending diffs. Finalizing AOF...
+9:C 24 Jul 2020 10:09:51.946 * Concatenating 0.00 MB of AOF diff received from parent.
+9:C 24 Jul 2020 10:09:51.946 * SYNC append only file rewrite performed
+9:C 24 Jul 2020 10:09:51.946 * AOF rewrite: 0 MB of memory used by copy-on-write
+5:S 24 Jul 2020 10:09:52.024 * Background AOF rewrite terminated with success
+5:S 24 Jul 2020 10:09:52.024 * Residual parent diff successfully flushed to the rewritten AOF (0.00 MB)
+5:S 24 Jul 2020 10:09:52.024 * Background AOF rewrite finished successfully
+5:S 26 Jul 2020 18:46:11.583 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:13.384 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:15.582 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:17.588 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:19.386 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:21.387 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:38.410 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:39.813 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:41.817 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:43.621 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:45.623 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:47.818 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:49.822 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:51.829 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:53.630 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:55.626 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:57.432 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:46:59.231 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:00.834 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:02.434 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:04.035 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:06.032 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:07.631 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:14.854 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:15.655 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:16.273 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:16.509 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:16.742 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:23.190 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:24.591 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:26.187 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:38.060 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:39.075 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:40.269 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:41.070 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:42.074 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:49.082 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:50.283 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:51.283 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:57.909 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:58.511 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:47:59.513 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:00.516 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:01.714 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:02.719 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:09.173 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:10.170 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:22.034 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:28.278 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:29.078 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:29.686 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:30.492 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:36.142 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:36.380 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:36.615 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:45.831 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:56.066 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 18:48:56.304 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 23:39:46.666 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 23:39:46.698 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 23:39:46.746 # Bad message length or signature received from Cluster bus.
+5:S 26 Jul 2020 23:39:46.780 # Bad message length or signature received from Cluster bus.

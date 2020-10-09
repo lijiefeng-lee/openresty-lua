@@ -275,7 +275,7 @@ class RedisCluster implements ClusterInterface, \IteratorAggregate, \Countable
     }
 
     /**
-     * Resets the slots map cache.
+     * Resets the slots map cache_project.
      */
     public function resetSlotsMap()
     {
