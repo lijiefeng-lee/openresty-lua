@@ -18,7 +18,7 @@ services: #服务
         - "6390:6379"
         - "16390:16379"
     volumes:
-     - /root/www/docker/redis/redis-cluster/master-1:/usr/src/redis
+     - /root/www/openresty 多级缓存架构/redis/redis-cluster/master-1:/usr/src/redis
     entrypoint:
        - /bin/bash
        - /usr/src/sh/cluster.sh
@@ -39,7 +39,7 @@ services: #服务
           - "6391:6379"
           - "16391:16379"
       volumes:
-        - /root/www/docker/redis/redis-cluster/master-2:/usr/src/redis
+        - /root/www/openresty 多级缓存架构/redis/redis-cluster/master-2:/usr/src/redis
       entrypoint:
          - /bin/bash
          - /usr/src/sh/cluster.sh
@@ -60,7 +60,7 @@ services: #服务
           - "6392:6379"
           - "16392:16379"
       volumes:
-        - /root/www/docker/redis/redis-cluster/master-3:/usr/src/redis
+        - /root/www/openresty 多级缓存架构/redis/redis-cluster/master-3:/usr/src/redis
       entrypoint:
          - /bin/bash
          - /usr/src/sh/cluster.sh
@@ -81,7 +81,7 @@ services: #服务
             - "6393:6379"
             - "16393:16379"
         volumes:
-           - /root/www/docker/redis/redis-cluster/slave-1:/usr/src/redis
+           - /root/www/openresty 多级缓存架构/redis/redis-cluster/slave-1:/usr/src/redis
         entrypoint:
            - /bin/sh
            - /usr/src/sh/cluster.sh
@@ -102,7 +102,7 @@ services: #服务
             - "6394:6379"
             - "16394:16379"
         volumes:
-           - /root/www/docker/redis/redis-cluster/slave-2:/usr/src/redis
+           - /root/www/openresty 多级缓存架构/redis/redis-cluster/slave-2:/usr/src/redis
         entrypoint:
            - /bin/bash
            - /usr/src/sh/cluster.sh
@@ -123,7 +123,7 @@ services: #服务
           - "6395:6379"
           - "16395:16379"
       volumes:
-        - /root/www/docker/redis/redis-cluster/slave-3:/usr/src/redis
+        - /root/www/openresty 多级缓存架构/redis/redis-cluster/slave-3:/usr/src/redis
       entrypoint:
          - /bin/bash
          - /usr/src/sh/cluster.sh

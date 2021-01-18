@@ -13,8 +13,8 @@ services:
         tty: true
         privileged: true
         volumes:
-            - /root/www/docker/cache_project/project/conf/nginx/distribute:/usr/local/openresty/nginx/conf #配置文件共享
-            - /root/www/docker/cache_project/project/code/nginx/distribute:/usr/local/openresty/lualib/project #共享项目分发层项目文件
+            - /root/www/openresty 多级缓存架构/cache_project/project/conf/nginx/distribute:/usr/local/openresty/nginx/conf #配置文件共享
+            - /root/www/openresty 多级缓存架构/cache_project/project/code/nginx/distribute:/usr/local/openresty/lualib/project #共享项目分发层项目文件
  nginx-application:
         image: nginx
         container_name: nginx-application
@@ -28,8 +28,8 @@ services:
         tty: true
         privileged: true
         volumes:
-              - /root/www/docker/cache_project/project/conf/nginx/application:/usr/local/openresty/nginx/conf
-              - /root/www/docker/cache_project/project/code/nginx/application:/usr/local/openresty/lualib/project
+              - /root/www/openresty 多级缓存架构/cache_project/project/conf/nginx/application:/usr/local/openresty/nginx/conf
+              - /root/www/openresty 多级缓存架构/cache_project/project/code/nginx/application:/usr/local/openresty/lualib/project
  nginx-application-1:
           image: nginx
           container_name: nginx-application-1
@@ -43,8 +43,8 @@ services:
           tty: true
           privileged: true
           volumes:
-              - /root/www/docker/cache_project/project/conf/nginx/application:/usr/local/openresty/nginx/conf
-              - /root/www/docker/cache_project/project/code/nginx/application:/usr/local/openresty/lualib/project
+              - /root/www/openresty 多级缓存架构/cache_project/project/conf/nginx/application:/usr/local/openresty/nginx/conf
+              - /root/www/openresty 多级缓存架构/cache_project/project/code/nginx/application:/usr/local/openresty/lualib/project
 networks:
     cache-network:
       external:

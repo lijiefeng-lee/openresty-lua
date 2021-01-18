@@ -6,8 +6,8 @@ services:
     ports:
         - "9090:9000"
     volumes:
-      - /root/www/docker/cache_project/project/code/php:/var/www/html
-      - /root/www/docker/cache_project/docker/php/conf/php.ini:/usr/local/etc/php/php.ini
+      - /root/www/openresty 多级缓存架构/cache_project/project/code/php:/var/www/html
+      - /root/www/openresty 多级缓存架构/cache_project/openresty 多级缓存架构/php/conf/php.ini:/usr/local/etc/php/php.ini
     stdin_open: true
     tty: true
     privileged: true
@@ -20,7 +20,7 @@ services:
     ports:
       - "3307:3306"
     volumes:
-       - /root/www/docker/cache_project/docker/php/conf/mysql/mysql.cnf:/etc/mysql/conf.d/mysql.cnf
+       - /root/www/openresty 多级缓存架构/cache_project/openresty 多级缓存架构/php/conf/mysql/mysql.cnf:/etc/mysql/conf.d/mysql.cnf
     stdin_open: true
     tty: true
     privileged: true
