@@ -7,6 +7,12 @@ lru 缓存和 字典缓存
 
 ![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/3.jpg)
 
+openresty可以利用lua-resty-lock 加锁，利用的是OpenResty 自带的 resty 库，它底层是基于共享字典，提供非阻塞的 lock API
+lua-resty-lock 的实现中，你需要自己来处理加锁、解锁、获取过期数据、重试、异常处理等各种问题，还是相当繁琐的 我们可以使用lua-resty-
+mlcache 加锁
+
+
+
 ![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/4.jpg)
 
 Redis集群
