@@ -1,6 +1,15 @@
 # docker
 结合 openresty 搭建多级缓存架构
 ![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/%E6%9E%B6%E6%9E%84.png)
+
+
+
+![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/%E6%9E%B6%E6%9E%84.png)
+
+![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/%E6%9E%B6%E6%9E%84.png)
+
+![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/%E6%9E%B6%E6%9E%84.png)
+
 Redis集群
 机器规划
 容器名称	容器IP地址	映射端口号	服务运行模式
