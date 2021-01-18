@@ -3,12 +3,12 @@
 ![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/%E6%9E%B6%E6%9E%84.png)
 
 
+lru 缓存和 字典缓存
+![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/2.jpg)
 
-![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/%E6%9E%B6%E6%9E%84.png)
+![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/3.jpg)
 
-![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/%E6%9E%B6%E6%9E%84.png)
-
-![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/%E6%9E%B6%E6%9E%84.png)
+![Image](https://github.com/lijiefeng-lee/docker/blob/master/cache_project/img/4.jpg)
 
 Redis集群
 机器规划
